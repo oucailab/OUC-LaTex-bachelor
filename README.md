@@ -1,6 +1,10 @@
 ## 简介 
 
-本模板是中国海洋大学本科生毕业论文LaTeX模板。LaTeX是一个流行的编辑科学类文章的工具。 大多数科学类书籍，期刊，文章都采用了LaTeX。 使用这个模板可以使你从无聊的格式限制中解脱出来，从而更专注地阐述自己的想法。 希望本模板能够帮助你入门LaTeX, 如果你有关于本模板的良好意见和建议，请在顶栏的问题(issue)一栏中提出。
+[![Join Discussions](https://img.shields.io/github/discussions/oucailab/OUC-LaTex-bachelor)](https://github.com/oucailab/OUC-LaTex-bachelor/discussions)
+
+🔥🔥🔥 特别提示，之前本仓库链接在：https://github.com/summitgao/OUC-LaTex-bachelor 因为启用了2FA验证密码无法找回，现在启用本仓库继续维护。欢迎有问题在[讨论区](https://github.com/oucailab/OUC-LaTex-bachelor/discussions)发帖讨论
+
+本模板是中国海洋大学本科生毕业论文LaTeX模板。LaTeX是一个流行的编辑科学类文章的工具。 大多数科学类书籍，期刊，文章都采用了LaTeX。 使用这个模板可以使你从无聊的格式限制中解脱出来，从而更专注地阐述自己的想法。 希望本模板能够帮助你入门LaTeX, 如果你有关于本模板的良好意见和建议，请在顶栏的问题(Discussions)进行讨论。
 
 学习LaTeX可以参考 Overleaf 的官方教程（[Learn LaTeX in 30 minutes](https://cn.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)），或者在B站学习碗豆老师的45分钟教学视频 “[Latex科研写作入门](https://www.bilibili.com/video/BV1Au411N7Ew/)”。
 
@@ -10,9 +14,9 @@
 
 <br>
 
-## 如何使用
+## 1. 如何使用？
 
-### Overleaf
+### 1.1 Overleaf
 
 **本模板在 Overleaf 下测试通过。** 可以通过链接：<https://cn.overleaf.com/read/ymrxysrnchhm>   在线浏览本项目。
 
@@ -29,11 +33,15 @@ Overleaf 是一个线上 LaTeX 编辑器，可以在不安装任何工具的情�
    - 选择 "TeX Live version" 为 "2019" 或者更新的版本
 4. 使用 Overleaf 编译
 
-最近我也在使用 TexPage （https://www.texpage.com/），可以理解为国产版的 Overleaf，对于国内用户支持的要好一些，尤其是云盘同步功能，支持百度网盘和 WebDAV 。另外，遇到问题客服也很给力，发邮件能够12小时以内及时回复帮忙解决问题，大家可以考虑。
+### 1.2 Overleaf
+
+推荐大家使用 TexPage （https://www.texpage.com/），可以理解为国产版的 Overleaf，对于国内用户支持的要好一些，尤其是云盘同步功能，支持百度网盘和 WebDAV 。另外，遇到问题客服也很给力，发邮件能够12小时以内及时回复帮忙解决问题，大家可以考虑。点击下面图标可以直接打开 TexPage 中的模板。
+
+[![TeXPage]()](https://www.texpage.com/template/fce6f583-3a96-4494-8d59-8bd4deb45c5d)
 
 <br>
 
-### 本地编译
+### 1.2 本地编译
 
 本项目在Windows下测试通过，理论上支持所有系统，本地编译测试使用的版本为TeX Live 2021。无论使用哪一个编辑器或IDE，都**需要使用XeLaTeX而不是默认的pdfLaTeX**。第一部分是安装LaTeX环境，必选，其余部分是编辑器或IDE，可选。
 
@@ -85,9 +93,34 @@ TeXstudio上述均是全平台的，此编辑器仅限Windows平台。需要将*
 xelatex -file-line-error -interaction=nonstopmode -synctex=1 main.tex
 ```
 
-## 注意事项
+### 1.3 注意事项
 
 可能需要编译两次才可以正确显示目录
+
+## 2. 反馈与贡献
+
+本模版是由诸多感兴趣的同学一起维护的开源项目，我们非常欢迎问题反馈和新的贡献者！
+
+### 2.1 反馈问题
+
+如果在使用上有任何问题，建议通过以下方式进行反馈（按推荐顺序排序）：
+
+* 如遇不会使用、编译错误等问题，请至 [在 GitHub 项目讨论区提问](https://github.com/oucailab/OUC-LaTex-bachelor/discussions) (推荐)
+* 如遇模版 BUG，或有新的需求，请至 [在 GitHub 项目中提 issue](https://github.com/oucailab/OUC-LaTex-bachelor/issues)
+
+
+
+### 成为贡献者
+
+这个仓库是面向用户的**示例模版**，如果你有很好的排版示例，可以提交到此仓库与大家分享。如果你想为本仓库贡献代码，欢迎发 Pull Request，然后再将更新同步到本仓库。
+
+除了提交 Pull Request 之外，还有以下方式可以进行贡献：
+
+* 帮助我们解答同学们的[问题](https://github.com/oucailab/OUC-LaTex-bachelor/discussions)，这些问题你也可能遇到过并且知道如何解决；
+* 向周围同学安利 OUC-LaTex-bachelor，让更多的同学使用我们维护的模板；
+* 在讨论区中分享你的使用体验，以及吐槽。如果你也想成为项目的长期维护者，也可以通过邮件/讨论区告诉我们。:-)
+
+
 
 ## 开源许可
 
