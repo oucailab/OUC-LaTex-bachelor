@@ -35,9 +35,9 @@ Overleaf 是一个线上 LaTeX 编辑器，可以在不安装任何工具的情�
 
 ### 1.2 Overleaf
 
-推荐大家使用 TexPage （https://www.texpage.com/），可以理解为国产版的 Overleaf，对于国内用户支持的要好一些，尤其是云盘同步功能，支持百度网盘和 WebDAV 。另外，遇到问题客服也很给力，发邮件能够12小时以内及时回复帮忙解决问题，大家可以考虑。点击下面图标可以直接打开 TexPage 中的模板。
+推荐大家使用 TexPage : https://www.texpage.com/，可以理解为国产版的 Overleaf，对于国内用户支持的要好一些，尤其是云盘同步功能，支持百度网盘和 WebDAV 。另外，遇到问题客服也很给力，发邮件能够12小时以内及时回复帮忙解决问题，大家可以考虑。点击下面图标可以直接打开 TexPage 中的模板。
 
-[![TeXPage]()](https://www.texpage.com/template/fce6f583-3a96-4494-8d59-8bd4deb45c5d)
+[![TeXPage](https://img.shields.io/badge/SJTUThesis-TeXPage-495A80.svg)](https://www.texpage.com/template/fce6f583-3a96-4494-8d59-8bd4deb45c5d)
 
 <br>
 
